@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="dotty-nativetest"
+		module="dotty-nativetest_native0.3_0.17"
+		revision="0.1.0"
+		status="integration"
+		publication="20190723152411"
+	>
+		<description>
+		Example sbt project that compiles using Dotty
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+	</configurations>
+	<publications>
+		<artifact name="dotty-nativetest_native0.3_0.17" type="pom" ext="pom" conf="pom"/>
+		<artifact name="dotty-nativetest_native0.3_0.17" type="jar" ext="jar" conf="compile"/>
+		<artifact name="dotty-nativetest_native0.3_0.17" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+		<artifact name="dotty-nativetest_native0.3_0.17" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-native" name="nativelib_native0.3_0.17" rev="0.3.7" conf="compile->default(compile)"/>
+		<dependency org="org.scala-native" name="javalib_native0.3_0.17" rev="0.3.7" conf="compile->default(compile)"/>
+		<dependency org="org.scala-native" name="auxlib_native0.3_0.17" rev="0.3.7" conf="compile->default(compile)"/>
+		<dependency org="org.scala-native" name="scalalib_native0.3_0.17" rev="0.3.7" conf="compile->default(compile)"/>
+		<dependency org="org.scala-native" name="test-interface_native0.3_0.17" rev="0.3.7" conf="test->default(compile)"/>
+		<dependency org="org.scala-native" name="nscplugin_0.17.0-RC1" rev="0.3.7" conf="plugin->default(compile)"/>
+		<dependency org="ch.epfl.lamp" name="dotty-library_0.17" rev="0.17.0-RC1" conf="compile->default(compile)"/>
+	</dependencies>
+</ivy-module>

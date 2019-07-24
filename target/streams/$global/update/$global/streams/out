@@ -1,0 +1,368 @@
+[info] Updating ...
+[debug] :: resolving dependencies :: dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [compile]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#nativelib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-native#nativelib_native0.3_0.17;0.3.7 {compile=[default(compile)]}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-native#nativelib_native0.3_0.17;0.3.7 {compile=[default(compile)]}
+[debug] 		tried /root/.ivy2/local/org.scala-native/nativelib_native0.3_0.17/0.3.7/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-native#nativelib_native0.3_0.17;0.3.7
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-native/nativelib_native0.3_0.17/0.3.7/nativelib_native0.3_0.17-0.3.7.pom
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scala-native/nativelib_native0.3_0.17/0.3.7/nativelib_native0.3_0.17-0.3.7.pom
+[debug] 	public: no ivy file found for org.scala-native#nativelib_native0.3_0.17;0.3.7
+[debug] 		tried /root/.sbt/preloaded/org.scala-native/nativelib_native0.3_0.17/0.3.7/ivys/ivy.xml
+[debug] 	local-preloaded-ivy: no ivy file found for org.scala-native#nativelib_native0.3_0.17;0.3.7
+[debug] 		tried file:////root/.sbt/preloaded/org/scala-native/nativelib_native0.3_0.17/0.3.7/nativelib_native0.3_0.17-0.3.7.pom
+[debug] 	local-preloaded: no ivy file found for org.scala-native#nativelib_native0.3_0.17;0.3.7
+[warn] 	module not found: org.scala-native#nativelib_native0.3_0.17;0.3.7
+[warn] ==== local: tried
+[warn]   /root/.ivy2/local/org.scala-native/nativelib_native0.3_0.17/0.3.7/ivys/ivy.xml
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/org/scala-native/nativelib_native0.3_0.17/0.3.7/nativelib_native0.3_0.17-0.3.7.pom
+[warn] ==== local-preloaded-ivy: tried
+[warn]   /root/.sbt/preloaded/org.scala-native/nativelib_native0.3_0.17/0.3.7/ivys/ivy.xml
+[warn] ==== local-preloaded: tried
+[warn]   file:////root/.sbt/preloaded/org/scala-native/nativelib_native0.3_0.17/0.3.7/nativelib_native0.3_0.17-0.3.7.pom
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#javalib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-native#javalib_native0.3_0.17;0.3.7 {compile=[default(compile)]}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-native#javalib_native0.3_0.17;0.3.7 {compile=[default(compile)]}
+[debug] 		tried /root/.ivy2/local/org.scala-native/javalib_native0.3_0.17/0.3.7/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-native#javalib_native0.3_0.17;0.3.7
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-native/javalib_native0.3_0.17/0.3.7/javalib_native0.3_0.17-0.3.7.pom
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scala-native/javalib_native0.3_0.17/0.3.7/javalib_native0.3_0.17-0.3.7.pom
+[debug] 	public: no ivy file found for org.scala-native#javalib_native0.3_0.17;0.3.7
+[debug] 		tried /root/.sbt/preloaded/org.scala-native/javalib_native0.3_0.17/0.3.7/ivys/ivy.xml
+[debug] 	local-preloaded-ivy: no ivy file found for org.scala-native#javalib_native0.3_0.17;0.3.7
+[debug] 		tried file:////root/.sbt/preloaded/org/scala-native/javalib_native0.3_0.17/0.3.7/javalib_native0.3_0.17-0.3.7.pom
+[debug] 	local-preloaded: no ivy file found for org.scala-native#javalib_native0.3_0.17;0.3.7
+[warn] 	module not found: org.scala-native#javalib_native0.3_0.17;0.3.7
+[warn] ==== local: tried
+[warn]   /root/.ivy2/local/org.scala-native/javalib_native0.3_0.17/0.3.7/ivys/ivy.xml
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/org/scala-native/javalib_native0.3_0.17/0.3.7/javalib_native0.3_0.17-0.3.7.pom
+[warn] ==== local-preloaded-ivy: tried
+[warn]   /root/.sbt/preloaded/org.scala-native/javalib_native0.3_0.17/0.3.7/ivys/ivy.xml
+[warn] ==== local-preloaded: tried
+[warn]   file:////root/.sbt/preloaded/org/scala-native/javalib_native0.3_0.17/0.3.7/javalib_native0.3_0.17-0.3.7.pom
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#auxlib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-native#auxlib_native0.3_0.17;0.3.7 {compile=[default(compile)]}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-native#auxlib_native0.3_0.17;0.3.7 {compile=[default(compile)]}
+[debug] 		tried /root/.ivy2/local/org.scala-native/auxlib_native0.3_0.17/0.3.7/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-native#auxlib_native0.3_0.17;0.3.7
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-native/auxlib_native0.3_0.17/0.3.7/auxlib_native0.3_0.17-0.3.7.pom
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scala-native/auxlib_native0.3_0.17/0.3.7/auxlib_native0.3_0.17-0.3.7.pom
+[debug] 	public: no ivy file found for org.scala-native#auxlib_native0.3_0.17;0.3.7
+[debug] 		tried /root/.sbt/preloaded/org.scala-native/auxlib_native0.3_0.17/0.3.7/ivys/ivy.xml
+[debug] 	local-preloaded-ivy: no ivy file found for org.scala-native#auxlib_native0.3_0.17;0.3.7
+[debug] 		tried file:////root/.sbt/preloaded/org/scala-native/auxlib_native0.3_0.17/0.3.7/auxlib_native0.3_0.17-0.3.7.pom
+[debug] 	local-preloaded: no ivy file found for org.scala-native#auxlib_native0.3_0.17;0.3.7
+[warn] 	module not found: org.scala-native#auxlib_native0.3_0.17;0.3.7
+[warn] ==== local: tried
+[warn]   /root/.ivy2/local/org.scala-native/auxlib_native0.3_0.17/0.3.7/ivys/ivy.xml
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/org/scala-native/auxlib_native0.3_0.17/0.3.7/auxlib_native0.3_0.17-0.3.7.pom
+[warn] ==== local-preloaded-ivy: tried
+[warn]   /root/.sbt/preloaded/org.scala-native/auxlib_native0.3_0.17/0.3.7/ivys/ivy.xml
+[warn] ==== local-preloaded: tried
+[warn]   file:////root/.sbt/preloaded/org/scala-native/auxlib_native0.3_0.17/0.3.7/auxlib_native0.3_0.17-0.3.7.pom
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#scalalib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-native#scalalib_native0.3_0.17;0.3.7 {compile=[default(compile)]}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-native#scalalib_native0.3_0.17;0.3.7 {compile=[default(compile)]}
+[debug] 		tried /root/.ivy2/local/org.scala-native/scalalib_native0.3_0.17/0.3.7/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-native#scalalib_native0.3_0.17;0.3.7
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-native/scalalib_native0.3_0.17/0.3.7/scalalib_native0.3_0.17-0.3.7.pom
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scala-native/scalalib_native0.3_0.17/0.3.7/scalalib_native0.3_0.17-0.3.7.pom
+[debug] 	public: no ivy file found for org.scala-native#scalalib_native0.3_0.17;0.3.7
+[debug] 		tried /root/.sbt/preloaded/org.scala-native/scalalib_native0.3_0.17/0.3.7/ivys/ivy.xml
+[debug] 	local-preloaded-ivy: no ivy file found for org.scala-native#scalalib_native0.3_0.17;0.3.7
+[debug] 		tried file:////root/.sbt/preloaded/org/scala-native/scalalib_native0.3_0.17/0.3.7/scalalib_native0.3_0.17-0.3.7.pom
+[debug] 	local-preloaded: no ivy file found for org.scala-native#scalalib_native0.3_0.17;0.3.7
+[warn] 	module not found: org.scala-native#scalalib_native0.3_0.17;0.3.7
+[warn] ==== local: tried
+[warn]   /root/.ivy2/local/org.scala-native/scalalib_native0.3_0.17/0.3.7/ivys/ivy.xml
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/org/scala-native/scalalib_native0.3_0.17/0.3.7/scalalib_native0.3_0.17-0.3.7.pom
+[warn] ==== local-preloaded-ivy: tried
+[warn]   /root/.sbt/preloaded/org.scala-native/scalalib_native0.3_0.17/0.3.7/ivys/ivy.xml
+[warn] ==== local-preloaded: tried
+[warn]   file:////root/.sbt/preloaded/org/scala-native/scalalib_native0.3_0.17/0.3.7/scalalib_native0.3_0.17-0.3.7.pom
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->default(compile)]
+[debug] sbt-chain: Checking cache for: dependency: ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1
+[debug] 	found ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 in sbt-chain
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->runtime]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->compile]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [compile->master(compile)]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.8
+[debug] 	found org.scala-lang#scala-library;2.12.8 in sbt-chain
+[debug] 	[2.12.8] org.scala-lang#scala-library;2.12.8
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [compile->compile(*)]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [compile->runtime(*)]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [runtime->runtime(*)]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [runtime]
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [compile]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#nativelib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#javalib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#auxlib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#scalalib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->runtime]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->compile]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [compile->master(compile)]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [compile->compile(*)]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [runtime->runtime(*)]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [test]
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [runtime]
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [compile]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#nativelib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#javalib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#auxlib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#scalalib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->runtime]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->compile]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [compile->master(compile)]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [compile->compile(*)]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [runtime->runtime(*)]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->master]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#test-interface_native0.3_0.17;0.3.7 [test->default(compile)]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-native#test-interface_native0.3_0.17;0.3.7 {test=[default(compile)]}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-native#test-interface_native0.3_0.17;0.3.7 {test=[default(compile)]}
+[debug] 		tried /root/.ivy2/local/org.scala-native/test-interface_native0.3_0.17/0.3.7/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-native#test-interface_native0.3_0.17;0.3.7
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-native/test-interface_native0.3_0.17/0.3.7/test-interface_native0.3_0.17-0.3.7.pom
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scala-native/test-interface_native0.3_0.17/0.3.7/test-interface_native0.3_0.17-0.3.7.pom
+[debug] 	public: no ivy file found for org.scala-native#test-interface_native0.3_0.17;0.3.7
+[debug] 		tried /root/.sbt/preloaded/org.scala-native/test-interface_native0.3_0.17/0.3.7/ivys/ivy.xml
+[debug] 	local-preloaded-ivy: no ivy file found for org.scala-native#test-interface_native0.3_0.17;0.3.7
+[debug] 		tried file:////root/.sbt/preloaded/org/scala-native/test-interface_native0.3_0.17/0.3.7/test-interface_native0.3_0.17-0.3.7.pom
+[debug] 	local-preloaded: no ivy file found for org.scala-native#test-interface_native0.3_0.17;0.3.7
+[warn] 	module not found: org.scala-native#test-interface_native0.3_0.17;0.3.7
+[warn] ==== local: tried
+[warn]   /root/.ivy2/local/org.scala-native/test-interface_native0.3_0.17/0.3.7/ivys/ivy.xml
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/org/scala-native/test-interface_native0.3_0.17/0.3.7/test-interface_native0.3_0.17-0.3.7.pom
+[warn] ==== local-preloaded-ivy: tried
+[warn]   /root/.sbt/preloaded/org.scala-native/test-interface_native0.3_0.17/0.3.7/ivys/ivy.xml
+[warn] ==== local-preloaded: tried
+[warn]   file:////root/.sbt/preloaded/org/scala-native/test-interface_native0.3_0.17/0.3.7/test-interface_native0.3_0.17-0.3.7.pom
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [compile-internal]
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [compile]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#nativelib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#javalib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#auxlib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#scalalib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->runtime]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->compile]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [compile->master(compile)]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [compile->compile(*)]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [runtime->runtime(*)]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->master]
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [optional]
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [provided]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [runtime-internal]
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [runtime]
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [compile]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#nativelib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#javalib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#auxlib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#scalalib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->runtime]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->compile]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [compile->master(compile)]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [compile->compile(*)]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [runtime->runtime(*)]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->master]
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [optional]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [test-internal]
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [test]
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [runtime]
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [compile]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#nativelib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#javalib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#auxlib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#scalalib_native0.3_0.17;0.3.7 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->default(compile)]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->runtime]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->compile]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [compile->master(compile)]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [compile->compile(*)]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [runtime->runtime(*)]
+[debug] == resolving dependencies ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1 [compile->master]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#test-interface_native0.3_0.17;0.3.7 [test->default(compile)]
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [optional]
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [provided]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [plugin]
+[debug] == resolving dependencies dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0->org.scala-native#nscplugin_0.17.0-RC1;0.3.7 [plugin->default(compile)]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-native#nscplugin_0.17.0-RC1;0.3.7 {plugin=[default(compile)]}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-native#nscplugin_0.17.0-RC1;0.3.7 {plugin=[default(compile)]}
+[debug] 		tried /root/.ivy2/local/org.scala-native/nscplugin_0.17.0-RC1/0.3.7/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-native#nscplugin_0.17.0-RC1;0.3.7
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-native/nscplugin_0.17.0-RC1/0.3.7/nscplugin_0.17.0-RC1-0.3.7.pom
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scala-native/nscplugin_0.17.0-RC1/0.3.7/nscplugin_0.17.0-RC1-0.3.7.pom
+[debug] 	public: no ivy file found for org.scala-native#nscplugin_0.17.0-RC1;0.3.7
+[debug] 		tried /root/.sbt/preloaded/org.scala-native/nscplugin_0.17.0-RC1/0.3.7/ivys/ivy.xml
+[debug] 	local-preloaded-ivy: no ivy file found for org.scala-native#nscplugin_0.17.0-RC1;0.3.7
+[debug] 		tried file:////root/.sbt/preloaded/org/scala-native/nscplugin_0.17.0-RC1/0.3.7/nscplugin_0.17.0-RC1-0.3.7.pom
+[debug] 	local-preloaded: no ivy file found for org.scala-native#nscplugin_0.17.0-RC1;0.3.7
+[warn] 	module not found: org.scala-native#nscplugin_0.17.0-RC1;0.3.7
+[warn] ==== local: tried
+[warn]   /root/.ivy2/local/org.scala-native/nscplugin_0.17.0-RC1/0.3.7/ivys/ivy.xml
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/org/scala-native/nscplugin_0.17.0-RC1/0.3.7/nscplugin_0.17.0-RC1-0.3.7.pom
+[warn] ==== local-preloaded-ivy: tried
+[warn]   /root/.sbt/preloaded/org.scala-native/nscplugin_0.17.0-RC1/0.3.7/ivys/ivy.xml
+[warn] ==== local-preloaded: tried
+[warn]   file:////root/.sbt/preloaded/org/scala-native/nscplugin_0.17.0-RC1/0.3.7/nscplugin_0.17.0-RC1-0.3.7.pom
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 [pom]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1!dotty-library_0.17.jar
+[debug] no default ivy user dir defined: set to /root/.ivy2
+[debug] including url: jar:file:/root/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /root/.ivy2/cache
+[debug] including url: jar:file:/root/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/root/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/root/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/root/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar
+[debug] no default ivy user dir defined: set to /root/.ivy2
+[debug] including url: jar:file:/root/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] settings loaded (63ms)
+[debug] 	default cache: /root/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] no default cache defined: set to /root/.ivy2/cache
+[debug] including url: jar:file:/root/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/root/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/root/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/root/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (128ms)
+[debug] 	default cache: /root/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] :: resolution report :: resolve 12651ms :: artifacts dl 337ms
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	::          UNRESOLVED DEPENDENCIES         ::
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	:: org.scala-native#nativelib_native0.3_0.17;0.3.7: not found
+[warn] 	:: org.scala-native#javalib_native0.3_0.17;0.3.7: not found
+[warn] 	:: org.scala-native#auxlib_native0.3_0.17;0.3.7: not found
+[warn] 	:: org.scala-native#scalalib_native0.3_0.17;0.3.7: not found
+[warn] 	:: org.scala-native#test-interface_native0.3_0.17;0.3.7: not found
+[warn] 	:: org.scala-native#nscplugin_0.17.0-RC1;0.3.7: not found
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[debug] 	report for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 compile produced in /home/naseem/Documents/SFreely NEW/Dotty-NativeTest/target/scala-0.17/resolution-cache/reports/dotty-nativetest-dotty-nativetest_native0.3_0.17-compile.xml
+[debug] 	report for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 runtime produced in /home/naseem/Documents/SFreely NEW/Dotty-NativeTest/target/scala-0.17/resolution-cache/reports/dotty-nativetest-dotty-nativetest_native0.3_0.17-runtime.xml
+[debug] 	report for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 test produced in /home/naseem/Documents/SFreely NEW/Dotty-NativeTest/target/scala-0.17/resolution-cache/reports/dotty-nativetest-dotty-nativetest_native0.3_0.17-test.xml
+[debug] 	report for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 provided produced in /home/naseem/Documents/SFreely NEW/Dotty-NativeTest/target/scala-0.17/resolution-cache/reports/dotty-nativetest-dotty-nativetest_native0.3_0.17-provided.xml
+[debug] 	report for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 optional produced in /home/naseem/Documents/SFreely NEW/Dotty-NativeTest/target/scala-0.17/resolution-cache/reports/dotty-nativetest-dotty-nativetest_native0.3_0.17-optional.xml
+[debug] 	report for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 compile-internal produced in /home/naseem/Documents/SFreely NEW/Dotty-NativeTest/target/scala-0.17/resolution-cache/reports/dotty-nativetest-dotty-nativetest_native0.3_0.17-compile-internal.xml
+[debug] 	report for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 runtime-internal produced in /home/naseem/Documents/SFreely NEW/Dotty-NativeTest/target/scala-0.17/resolution-cache/reports/dotty-nativetest-dotty-nativetest_native0.3_0.17-runtime-internal.xml
+[debug] 	report for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 test-internal produced in /home/naseem/Documents/SFreely NEW/Dotty-NativeTest/target/scala-0.17/resolution-cache/reports/dotty-nativetest-dotty-nativetest_native0.3_0.17-test-internal.xml
+[debug] 	report for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 plugin produced in /home/naseem/Documents/SFreely NEW/Dotty-NativeTest/target/scala-0.17/resolution-cache/reports/dotty-nativetest-dotty-nativetest_native0.3_0.17-plugin.xml
+[debug] 	report for dotty-nativetest#dotty-nativetest_native0.3_0.17;0.1.0 pom produced in /home/naseem/Documents/SFreely NEW/Dotty-NativeTest/target/scala-0.17/resolution-cache/reports/dotty-nativetest-dotty-nativetest_native0.3_0.17-pom.xml
+[debug] 	resolve done (12651ms resolve - 337ms download)
+[warn] 
+[warn] 	Note: Unresolved dependencies path:
+[warn] 		org.scala-native:auxlib_native0.3_0.17:0.3.7 ((scala.scalanative.sbtplugin.ScalaNativePluginInternal.scalaNativeDependencySettings) ScalaNativePluginInternal.scala#L41)
+[warn] 		  +- dotty-nativetest:dotty-nativetest_native0.3_0.17:0.1.0
+[warn] 		org.scala-native:nscplugin_0.17.0-RC1:0.3.7 (Defaults.scala#L3331)
+[warn] 		  +- dotty-nativetest:dotty-nativetest_native0.3_0.17:0.1.0
+[warn] 		org.scala-native:javalib_native0.3_0.17:0.3.7 ((scala.scalanative.sbtplugin.ScalaNativePluginInternal.scalaNativeDependencySettings) ScalaNativePluginInternal.scala#L41)
+[warn] 		  +- dotty-nativetest:dotty-nativetest_native0.3_0.17:0.1.0
+[warn] 		org.scala-native:nativelib_native0.3_0.17:0.3.7 ((scala.scalanative.sbtplugin.ScalaNativePluginInternal.scalaNativeDependencySettings) ScalaNativePluginInternal.scala#L41)
+[warn] 		  +- dotty-nativetest:dotty-nativetest_native0.3_0.17:0.1.0
+[warn] 		org.scala-native:test-interface_native0.3_0.17:0.3.7 ((scala.scalanative.sbtplugin.ScalaNativePluginInternal.scalaNativeDependencySettings) ScalaNativePluginInternal.scala#L41)
+[warn] 		  +- dotty-nativetest:dotty-nativetest_native0.3_0.17:0.1.0
+[warn] 		org.scala-native:scalalib_native0.3_0.17:0.3.7 ((scala.scalanative.sbtplugin.ScalaNativePluginInternal.scalaNativeDependencySettings) ScalaNativePluginInternal.scala#L41)
+[warn] 		  +- dotty-nativetest:dotty-nativetest_native0.3_0.17:0.1.0
+[error] sbt.librarymanagement.ResolveException: unresolved dependency: org.scala-native#nativelib_native0.3_0.17;0.3.7: not found
+[error] unresolved dependency: org.scala-native#javalib_native0.3_0.17;0.3.7: not found
+[error] unresolved dependency: org.scala-native#auxlib_native0.3_0.17;0.3.7: not found
+[error] unresolved dependency: org.scala-native#scalalib_native0.3_0.17;0.3.7: not found
+[error] unresolved dependency: org.scala-native#test-interface_native0.3_0.17;0.3.7: not found
+[error] unresolved dependency: org.scala-native#nscplugin_0.17.0-RC1;0.3.7: not found
+[error] 	at sbt.internal.librarymanagement.IvyActions$.resolveAndRetrieve(IvyActions.scala:332)
+[error] 	at sbt.internal.librarymanagement.IvyActions$.$anonfun$updateEither$1(IvyActions.scala:208)
+[error] 	at sbt.internal.librarymanagement.IvySbt$Module.$anonfun$withModule$1(Ivy.scala:239)
+[error] 	at sbt.internal.librarymanagement.IvySbt.$anonfun$withIvy$1(Ivy.scala:204)
+[error] 	at sbt.internal.librarymanagement.IvySbt.sbt$internal$librarymanagement$IvySbt$$action$1(Ivy.scala:70)
+[error] 	at sbt.internal.librarymanagement.IvySbt$$anon$3.call(Ivy.scala:77)
+[error] 	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:93)
+[error] 	at xsbt.boot.Locks$GlobalLock.xsbt$boot$Locks$GlobalLock$$withChannelRetries$1(Locks.scala:78)
+[error] 	at xsbt.boot.Locks$GlobalLock$$anonfun$withFileLock$1.apply(Locks.scala:97)
+[error] 	at xsbt.boot.Using$.withResource(Using.scala:10)
+[error] 	at xsbt.boot.Using$.apply(Using.scala:9)
+[error] 	at xsbt.boot.Locks$GlobalLock.ignoringDeadlockAvoided(Locks.scala:58)
+[error] 	at xsbt.boot.Locks$GlobalLock.withLock(Locks.scala:48)
+[error] 	at xsbt.boot.Locks$.apply0(Locks.scala:31)
+[error] 	at xsbt.boot.Locks$.apply(Locks.scala:28)
+[error] 	at sbt.internal.librarymanagement.IvySbt.withDefaultLogger(Ivy.scala:77)
+[error] 	at sbt.internal.librarymanagement.IvySbt.withIvy(Ivy.scala:199)
+[error] 	at sbt.internal.librarymanagement.IvySbt.withIvy(Ivy.scala:196)
+[error] 	at sbt.internal.librarymanagement.IvySbt$Module.withModule(Ivy.scala:238)
+[error] 	at sbt.internal.librarymanagement.IvyActions$.updateEither(IvyActions.scala:193)
+[error] 	at sbt.librarymanagement.ivy.IvyDependencyResolution.update(IvyDependencyResolution.scala:20)
+[error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:56)
+[error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:45)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:93)
+[error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:68)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$19(LibraryManagement.scala:106)
+[error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:224)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:106)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:89)
+[error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:149)
+[error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:120)
+[error] 	at sbt.Classpaths$.$anonfun$updateTask$5(Defaults.scala:2561)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:44)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:40)
+[error] 	at sbt.std.Transform$$anon$4.work(System.scala:67)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:269)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+[error] 	at sbt.Execute.work(Execute.scala:278)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:269)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[error] 	at java.lang.Thread.run(Thread.java:748)
